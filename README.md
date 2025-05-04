@@ -7,13 +7,13 @@ A simple, cross-platform CLI tool to convert images **to/from DDS format**.
 Install via [uv](https://github.com/astral-sh/uv):
 
 ```bash
-uv pip install 'git+https://github.com/your-username/imgdds.git'
+uv pip install 'git+https://github.com/acsr/imgdds.git'
 ```
 
 Or using pip:
 
 ```bash
-pip install 'git+https://github.com/your-username/imgdds.git'
+pip install 'git+https://github.com/acsr/imgdds.git'
 ```
 
 ## 🚀 Usage
