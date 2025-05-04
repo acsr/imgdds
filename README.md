@@ -1,6 +1,12 @@
 # imgdds
 
 A simple, cross-platform CLI tool to convert images **to/from DDS format**.
+This tool uses imageio https://pypi.org/project/imageio/ 
+
+Imageio is a Python library that provides an easy interface to read and write a wide range of image data, including animated images, volumetric data, and scientific formats. It is cross-platform, runs on Python 3.9+, and is easy to install.
+
+Main website: https://imageio.readthedocs.io/
+
 
 ## 🔧 Install
 
