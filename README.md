@@ -1,0 +1,44 @@
+# imgdds
+
+A simple, cross-platform CLI tool to convert images **to/from DDS format**.
+
+## 🔧 Install
+
+Install via [uv](https://github.com/astral-sh/uv):
+
+```bash
+uv pip install 'git+https://github.com/your-username/imgdds.git'
+```
+
+Or using pip:
+
+```bash
+pip install 'git+https://github.com/your-username/imgdds.git'
+```
+
+## 🚀 Usage
+
+```bash
+imgdds input_path output_path [-r|--recursive]
+```
+
+- If `input_path` is a file, converts that file.
+- If it's a directory, all supported files are converted.
+- `--recursive` processes subdirectories.
+
+## 🖼️ Examples
+
+```bash
+imgdds image.png output.dds
+imgdds folder_of_pngs output_folder --recursive
+imgdds texture.dds converted.png
+```
+
+## 📦 Supported Formats
+
+- Input: PNG, JPG, BMP, DDS, etc.
+- Output: PNG, JPG, DDS
+
+## 📄 License
+
+MIT
