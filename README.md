@@ -40,6 +40,9 @@ imgdds folder_of_pngs output_folder --recursive
 imgdds texture.dds converted.png
 ```
 
+Example dds image files can be downloaded from:
+https://github.com/robertkist/py_dds/tree/main/example_images
+
 ## 📦 Supported Formats
 
 - Input: PNG, JPG, BMP, DDS, etc.
